@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <title>Global Scapes - Agência de Imigração</title>
+    <style>
+        body {
+            background: url(https://c.wallhere.com/photos/17/61/travel_mountains_berg_rock_landscape_reisen_montana_tunisia-930975.jpg!d);
+            background-size: cover;
+        }
+        a {
+            text-decoration: none;
+        }
+        .card {
+            align-items: center;
+            backdrop-filter: blur(4px);
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+        img {
+            margin-top: 10px;
+            max-width: 50%;
+        }
+        #imgcard{
+            opacity: 1;
+        }
+        .card-title {
+            font-weight: bold;
+            color: #fff;
+        }
+        header, footer {
+            background-color: rgba(255, 255, 255, 0.15);
+            font-weight: bold;
+        }
+        .card:hover{
+            background-color: rgba(255, 255, 255, 0.35);
+        }
+        #section1 {
+            align-items: center;
+            backdrop-filter: blur(4px);
+            background-color: rgba(255, 255, 255, 0.15);
+            color: #fff;
+        }
+        #footer {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light p-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <img src="earth-globe-europe-africa.svg" alt="logo">Global Scapes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown h4">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">Biblioteca</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="portugal.html">Portugal</a>
+                                <a class="dropdown-item" href="novazelandia.html">Nova Zelândia</a>
+                                <a class="dropdown-item" href="italia.html">Itália</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="biblioteca.html">Todos os paises</a>
+                            </div>
+                        </li>
+                        <li class="nav-item h4">
+                            <a class="nav-link" href="formulario.html">Estou interessado</a>
+                        </li>
+                        <li class="nav-item h4">
+                            <a class="nav-link" href="sobre.html">Sobre nós</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col mb-4">
+                <a href="#">
+                    <div class="card">
+                        <img id="imgcard" src="https://assets-global.website-files.com/5feb69f9ab0dff44b95b78d6/5ffc666d74c2ceff5ee32f6c_pt.svg"
+                            class="card-img-top " alt="Card image">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Portugal</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-4">
+                <a href="#">
+                    <div class="card">
+                        <img id="imgcard" src="https://assets-global.website-files.com/5feb69f9ab0dff44b95b78d6/6005d3f325d8dd777e94ca93_nz.svg"
+                            class="card-img-top " alt="Card image">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nova Zelândia</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-4">
+                <a href="#">
+                    <div class="card">
+                        <img id="imgcard" src="https://assets-global.website-files.com/5feb69f9ab0dff44b95b78d6/63a3142e046710a24ddeee41_it.svg"
+                            class="card-img-top " alt="Card image">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Itália</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col mb-4">
+                <a href="#">
+                    <div class="card">
+                        <img id="imgcard" src="https://assets-global.website-files.com/5feb69f9ab0dff44b95b78d6/5ffc648b4d989ee40e6839f1_th.svg"
+                            class="card-img-top " alt="Card image">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Tailandia</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-4">
+                <a href="#">
+                    <div class="card">
+                        <img id="imgcard" src="https://assets-global.website-files.com/5feb69f9ab0dff44b95b78d6/5ffc66911e3f2c5a0996cff6_es.svg"
+                            class="card-img-top " alt="Card image">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Espanha</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-4">
+                <a href="#">
+                    <div class="card">
+                        <img id="imgcard" src="https://assets-global.website-files.com/5feb69f9ab0dff44b95b78d6/5ffc646bcaff75b4dbbd6a70_ie.svg"
+                            class="card-img-top " alt="Card image">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Irlanda</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 p-4 ">
+        <div class="container text-center">
+            <span class="text-black">&copy;Desenvolvido por grupo 1</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
